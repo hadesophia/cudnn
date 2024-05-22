@@ -14,9 +14,9 @@ Dữ liệu TV360 đang ở trong thư mục CDRIB/dataset/raw_data, có tên l�
 Các file tham số mô hình nằm trong folder recbole_cdr/properties/model/. 
 
 ### Chọn tham số train
-Các tham số train ở trong file overall.yaml, gpu_id trong file này và file sample.yaml phải giống nhau. 
+Các tham số train ở trong file overall.yaml, gpu_id trong file này và file sample.yaml phải giống nhau. Một số mô hình có thể ghi đè các tham số train ở trong file config của nó, ví dụ như epochs, chị hãy để ý.
+
 ![alt text](image-4.png)
-Một số mô hình có thể ghi đè các tham số train ở trong file config của nó, ví dụ như epochs, chị hãy để ý.
 
 ### Chạy mô hình
 Cd tới thư mục RecBold-CDR và chạy file run.py với arg --model là tên các model (BiTGCF, SSCDR, ...)
